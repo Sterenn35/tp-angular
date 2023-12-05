@@ -1,0 +1,8 @@
+<mat-card>
+    <mat-card-content>
+        <div *ngIf="myData">
+            <img mat-card-image [src] = "myData.image">
+            <p>{{myData.name}}</p>
+        </div>
+    </mat-card-content>
+</mat-card>
