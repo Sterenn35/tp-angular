@@ -1,5 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <img id = "image_nav" src="../../assets/images/triforce.png" alt="" [routerLink]="['/home']" routerLinkActive="active">
+    <a class="navbar-brand" [routerLink]="['/home']" routerLinkActive="active">
+        <img id = "image_nav" src="../../assets/images/triforce.png" alt="" >
+    </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -7,13 +9,13 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Monsters <span class="sr-only"></span></a>
+          <a class="nav-link" href="monsters">Monsters <span class="sr-only"></span></a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="#">Creatures <span class="sr-only"></span></a>
+          <a class="nav-link" href="creatures">Creatures <span class="sr-only"></span></a>
         </li>
         <li class="nav-item active">
-            <a class="nav-link" href="#">Search <span class="sr-only"></span></a>
+            <a class="nav-link" href="search">Search <span class="sr-only"></span></a>
           </li>
       </ul>
       <form class="form-inline my-2 my-lg-0">
