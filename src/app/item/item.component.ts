@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { IData } from '../../IData';
+import { IData } from '../IData';
 import { CommonModule } from '@angular/common';
 import { MatCardModule } from '@angular/material/card';
 
