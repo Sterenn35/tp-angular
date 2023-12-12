@@ -1,8 +1,10 @@
 <mat-card>
     <mat-card-content>
         <div *ngIf="myData">
+            <a [routerLink]="['/entry', myData.id]" routerLinkActive = "active">
             <img mat-card-image [src] = "myData.image">
             <p>{{myData.name}}</p>
+            </a>
         </div>
     </mat-card-content>
 </mat-card>

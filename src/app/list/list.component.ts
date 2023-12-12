@@ -4,7 +4,7 @@ import { CommonModule } from '@angular/common';
 import { ItemComponent } from '../item/item.component';
 import { DataMockService } from '../data-mock.service';
 import { IData } from '../IData';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, RouterLink, RouterLinkActive } from '@angular/router';
 
 
 @Component({

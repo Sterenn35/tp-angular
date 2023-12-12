@@ -22,4 +22,7 @@ export class DataMockService {
     return of(DATA.filter(d => (d.category == "creatureFood" || d.category == "creatureNoFood")));
   }
 
+  getById(id:number): Observable<IData> {
+    return of(DATA.filter(d => d.id == id)[0]); 
+  }
 }
