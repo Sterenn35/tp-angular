@@ -1,3 +1,5 @@
 <div *ngIf="entry">
+    <h1>{{entry.name | uppercase}}</h1><br>
+    <img [src] = "entry.image">
     <p>{{entry.description}}</p>
 </div>
